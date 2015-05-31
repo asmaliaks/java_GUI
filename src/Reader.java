@@ -12,8 +12,4 @@ public class Reader {
         k = Integer.parseInt(n2);
     }
 
-    public void scan(int a, int b) {
-        JOptionPane.showMessageDialog(null, "Your first digit = " + a);
-        JOptionPane.showMessageDialog(null, "Your second digit = " + b);
-    }
 }
