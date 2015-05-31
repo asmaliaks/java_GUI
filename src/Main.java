@@ -1,3 +1,5 @@
+import javax.swing.*;
+
 /**
  * Created by asmalouski on 31.5.15.
  */
@@ -10,7 +12,7 @@ public class Main {
         Reader r  = new Reader();
         r.scan();
         sum = count(r.i, r.k);
-        System.out.println("The sum equals :"+sum);
+        JOptionPane.showMessageDialog(null, "The sum  = "+sum);
     }
 
     public static int count(int x, int y){
